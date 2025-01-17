@@ -7,8 +7,6 @@ language:Persian
 <br>
 <p>!! Ta File Index Ta Satr 67 Tarjome Shod</p>
 <br>
-<p>Ta File Index Ta Satr 100 Tarjome Shod</p>
-<br>
 <h2>Mirox:</h2>
 <br>
 <p>None</p>
