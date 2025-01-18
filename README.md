@@ -5,7 +5,7 @@ language:Persian
 <br>
 <h2>Mehran:</h2>
 <br>
-<p>coment awli hazf shd</p>
+<p>None</p>
 <br>
 <h2>Mirox:</h2>
 <br>
