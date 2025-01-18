@@ -1,221 +1,28 @@
-/*-----------------------------------------------------------------------------------
-
-Item Name: Blueberry - eCommerce html template.
-Author: Maraviya Infotech
-Version: 1.1.0
-Copyright 2024
-
------------------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------
-    Included CSS INDEX
------------------------------------------------------------------------------------
-
-01. Typography
-
-02. Utilities
-    - Mixing
-    - Variables
-
-03. components
-    - Header
-    - Header-2
-    - Footer
-    - Common
-    - Cart sidebar
-    - Category popup
-    - Quick view
-    - Breadcrumb
-    - Newsletter popup
-
-04. Layout 
-    - Hero
-    - Category
-    - Product
-    - Deal
-    - Banner one
-    - Banner two
-    - New product
-    - Services
-    - Vendors
-    - Testimonials
-    - Blog 2
-    - Instagram
-
-05. Pages
-    - About
-    - Shop page
-    - Single product page
-    - Contact
-    - Cart page
-    - Checkout page
-    - Faq
-    - Login
-    - Register
-    - Blog
-    - Wishlist
-    - Compare
-    - Terms
-    - Track
-
------------------------------------------------------------------------------------*/
-/* Typography ( Import Typography ) */
-/*-------------------------------------------------
-  Fonts Family & Style CSS
----------------------------------------------------*/
-/*--  Poppins font  --*/
 @font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
+    font-family: Samim;
+    src: url('../fonts/font/Samim-Bold.eot');
+    src: url('../fonts/font/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Samim-Bold.woff') format('woff'),
+        url('../fonts/font/Samim-Bold.ttf') format('truetype');
+    font-weight: bold;
 }
 @font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-ThinItalic.ttf") format("truetype");
-  font-weight: 100;
-  font-style: italic;
+    font-family: Samim;
+    src: url('../fonts/font/Samim.eot');
+    src: url('../fonts/font/Samim.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Samim.woff') format('woff'),
+        url('../fonts/font/Samim.ttf') format('truetype');
+    font-weight: normal;
 }
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-ExtraLightItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-ExtraBoldItalic.ttf") format("truetype");
-  font-weight: 800;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("../fonts/poppins/Poppins-BlackItalic.ttf") format("truetype");
-  font-weight: 900;
-  font-style: italic;
-}
-/*--  Quicksand font  --*/
-@font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/quicksand/Quicksand-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/quicksand/Quicksand-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/quicksand/Quicksand-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/quicksand/Quicksand-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/quicksand/Quicksand-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-/* Utilities ( Import Utilities ) */
-/* mixing */
-/* variables */
-/* components ( Import components ) */
-/* common */
 body {
-  font-family: "Poppins, sans-serif";
-  font-size: 15px;
-  font-weight: 400;
-  color: #686e7d;
-  line-height: 26px;
-  letter-spacing: 0.02rem;
-  overflow-x: hidden;
-  overflow-y: scroll;
+    font-family: Samim;
+    font-size: 15px;
+    font-weight: 400;
+    color: #686e7d;
+    line-height: 26px;
+    letter-spacing: 0.02rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 ::-moz-selection {
@@ -231,13 +38,13 @@ body {
 p,
 li,
 a {
-  margin-bottom: 0;
-  font-family: "Poppins, sans-serif";
-  font-size: 15px;
-  color: #686e7d;
-  font-weight: 300;
-  line-height: 28px;
-  letter-spacing: 0.03rem;
+    margin-bottom: 0;
+    font-family: Samim;
+    font-size: 15px;
+    color: #686e7d;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.03rem;
 }
 
 a {
@@ -258,11 +65,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "quicksand";
-  margin-bottom: 0;
-  color: #3d4750;
-  font-weight: 600;
-  letter-spacing: 0.03rem;
+    font-family: Samim;
+    margin-bottom: 0;
+    color: #3d4750;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
 }
 
 [type=radio]:checked {
@@ -10418,3 +10225,4 @@ ul.bb-shop-tags li.active-tags a {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
