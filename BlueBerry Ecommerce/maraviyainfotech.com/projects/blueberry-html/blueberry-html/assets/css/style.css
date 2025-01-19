@@ -1,17 +1,18 @@
 @font-face {
     font-family: Samim;
-    src: url('../../../landing-assets/font/Samim-Bold.eot');
-    src: url('../../../landing-assets/font/Samim-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../../../landing-assets/font/Samim-Bold.woff') format('woff'),
-        url('../../../landing-assets/font/Samim-Bold.ttf') format('truetype');
+    src: url('../fonts/font/Samim-Bold-FD.eot');
+    src: url('../fonts/font/Samim-Bold-FD.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Samim-Bold-FD.woff') format('woff'),
+        url('../fonts/font/Samim-Bold-FD.ttf') format('truetype');
     font-weight: bold;
 }
+
 @font-face {
     font-family: Samim;
-    src: url('../../../landing-assets/font/Samim.eot');
-    src: url('../../../landing-assets/font/Samim.eot?#iefix') format('embedded-opentype'),
-        url('../../../landing-assets/font/Samim.woff') format('woff'),
-        url('../../../landing-assets/font/Samim.ttf') format('truetype');
+    src: url('../fonts/font/Samim-FD.eot');
+    src: url('../fonts/font/Samim-FD.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Samim-FD.woff') format('woff'),
+        url('../fonts/font/Samim-FD.ttf') format('truetype');
     font-weight: normal;
 }
 body {
@@ -748,7 +749,7 @@ select {
 }
 .bb-header .top-header .inner-top-header .col-right-bar .cols span,
 .bb-header .top-header .inner-top-header .col-right-bar .cols a {
-  font-family: "Poppins, sans-serif";
+  font-family: Samim;
   font-size: 14px;
   color: #fff;
 }
@@ -3576,7 +3577,7 @@ select {
 .bb-side-cart .bb-cart-box .bb-cart-banner .banner .detail h4 {
   margin-bottom: 5px;
   font-size: 15px;
-  font-family: "Poppins, sans-serif";
+  font-family: Samim;
   font-weight: 300;
   line-height: 22px;
 }
@@ -4689,7 +4690,7 @@ button.btn-close.qty_close {
 }
 .hero-contact p {
   margin-bottom: 20px;
-  font-family: "Poppins, sans-serif";
+  font-family: Samim;
   font-size: 18px;
   color: #777;
 }
@@ -5441,7 +5442,7 @@ button.btn-close.qty_close {
           justify-content: space-between;
 }
 .bb-pro-box .bb-pro-contact .bb-pro-subtitle span, .bb-pro-box .bb-pro-contact .bb-pro-subtitle a {
-  font-family: "Poppins, sans-serif";
+  font-family: Samim;
   font-size: 13px;
   line-height: 16px;
   color: #777;
@@ -5784,7 +5785,7 @@ button.btn-close.qty_close {
           justify-content: space-between;
 }
 .bb-pro-box-2 .bb-pro-contact .bb-pro-subtitle span, .bb-pro-box-2 .bb-pro-contact .bb-pro-subtitle a {
-  font-family: "Poppins, sans-serif";
+  font-family: Samim;
   font-size: 13px;
   line-height: 16px;
   color: #777;
@@ -7756,13 +7757,13 @@ ul.bb-shop-tags li.active-tags a {
           align-items: flex-end;
 }
 .bb-bnr-details .inner-contact h4 {
-  font-family: "Poppins, sans-serif";
+  font-family: Samim;
   font-size: 38px;
   font-weight: 700;
   color: #fff;
 }
 .bb-bnr-details .inner-contact p {
-  font-family: "Poppins, sans-serif";
+  font-family: Samim;
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
