@@ -2,7 +2,7 @@
 <br>
 <h1>language : </h1>
 <br>
-HTML , Css , Scss , JavaScript
+<h3>HTML , Css , Scss , JavaScript</h3>
 <br>
 <h1>Work done:</h1>
 <br>
