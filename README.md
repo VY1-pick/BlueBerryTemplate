@@ -9,4 +9,4 @@ language:Persian
 <br>
 <h2>Mirox:</h2>
 <br>
-<p>None</p>
+<p>Core Index Full Translated</p>
