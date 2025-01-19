@@ -1,5 +1,4 @@
-# BlueBerryTemplate
-<h1>Information : </h1>
+# BlueBerryTemplate Information :
 <br>
 <h2>language : </h1>
 <br>
