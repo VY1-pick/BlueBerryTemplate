@@ -1,17 +1,17 @@
 @font-face {
     font-family: Samim;
-    src: url('../fonts/font/Samim-Bold.eot');
-    src: url('../fonts/font/Samim-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/font/Samim-Bold.woff') format('woff'),
-        url('../fonts/font/Samim-Bold.ttf') format('truetype');
+    src: url('../../../landing-assets/font/Samim-Bold.eot');
+    src: url('../../../landing-assets/font/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../../landing-assets/font/Samim-Bold.woff') format('woff'),
+        url('../../../landing-assets/font/Samim-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 @font-face {
     font-family: Samim;
-    src: url('../fonts/font/Samim.eot');
-    src: url('../fonts/font/Samim.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/font/Samim.woff') format('woff'),
-        url('../fonts/font/Samim.ttf') format('truetype');
+    src: url('../../../landing-assets/font/Samim.eot');
+    src: url('../../../landing-assets/font/Samim.eot?#iefix') format('embedded-opentype'),
+        url('../../../landing-assets/font/Samim.woff') format('woff'),
+        url('../../../landing-assets/font/Samim.ttf') format('truetype');
     font-weight: normal;
 }
 body {
@@ -284,7 +284,6 @@ textarea::placeholder {
   width: 0;
   height: 0;
   position: absolute;
-  top: -1px;
   right: 12px;
   font-size: 15px;
   font-family: "remixicon";
@@ -300,7 +299,6 @@ textarea::placeholder {
   text-align: left;
   opacity: 0;
   visibility: hidden;
-  left: 0;
   right: auto !important;
   background: #fff;
   -webkit-box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.07);

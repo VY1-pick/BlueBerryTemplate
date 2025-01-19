@@ -35,12 +35,14 @@ html * {
 }
 
 .custom-dropdown .bb-dropdown-toggle:after {
-  right: -5px;
+  right: 40px;
 }
-
+.dddd:after {
+    right: 74px !important;
+}
 .bb-header .bb-main-menu-desk .bb-inner-menu-desk .bb-header-btn,
 .bb-header-2 .bb-main-menu-desk .bb-inner-menu-desk .bb-header-btn {
-  margin: 0 0 0 30px;
+    margin: 0 0 0 30px;
 }
 .bb-header .bb-main-menu-desk .bb-inner-menu-desk .bb-dropdown-menu .inner-select .custom-select,
 .bb-header-2 .bb-main-menu-desk .bb-inner-menu-desk .bb-dropdown-menu .inner-select .custom-select {

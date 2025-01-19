@@ -489,7 +489,7 @@ h2 {
     font-size: 32px;
     line-height: 120%;
     font-weight: 600;
-    text-align: left;
+    text-align: right;
 }
 
 .page-intro p {
@@ -500,7 +500,7 @@ h2 {
     font-size: 16px;
     letter-spacing: 0.03rem;
     line-height: 26px;
-    text-align: left;
+    text-align: right;
 }
 
 .page-intro .typer {
@@ -657,7 +657,7 @@ h2 {
         width: 400px;
         position: absolute;
         left: auto;
-        right: -40px;
+        right: 400px;
         bottom: -100px;
         -webkit-animation: MoveUpDown 4s linear infinite;
         animation: MoveUpDown 4s linear infinite;
@@ -1991,7 +1991,7 @@ p.service_text {
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    padding: 20px 0;
+    padding: 5px 0;
     -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
     -webkit-transition: all 0.3s ease-out;
@@ -2001,13 +2001,13 @@ p.service_text {
     .start-header.scroll-on {
         -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-        padding: 10px 0;
+        padding: 3px 0;
         -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
     }
 
         .start-header.scroll-on .navbar-brand img {
-            height: 24px;
+            height: 38px;
             -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
         }
@@ -2027,7 +2027,6 @@ p.service_text {
 }
 
 .navbar-brand img {
-    height: 28px;
     width: auto;
     display: block;
     -webkit-transition: all 0.3s ease-out;
