@@ -1,5 +1,4 @@
 # BlueBerryTemplate Information :
-<br>
 <h2>language : </h1>
 <br>
 <p>HTML , Css , Scss , JavaScript</p>
