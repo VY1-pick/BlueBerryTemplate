@@ -5,7 +5,7 @@
 <br>
 <h2>Author : </h1>
 <br>
-<p>Amir (Mirox) , MeHRaN</p>
+<p>Mirox (Amir) , MeHRaN</p>
 <br>
 <h1>Work done : </h1>
 <br>
