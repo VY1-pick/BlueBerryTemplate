@@ -8875,6 +8875,7 @@ ul.bb-shop-tags li.active-tags a {
   font-weight: 400;
   color: #686e7d;
   border-radius: 10px;
+  border-color: #d5d5d5;
 }
 .bb-contact-form .bb-contact-wrap input::-webkit-input-placeholder, .bb-contact-form .bb-contact-wrap textarea::-webkit-input-placeholder {
   font-size: 14px;
@@ -9607,7 +9608,7 @@ ul.bb-shop-tags li.active-tags a {
   font-size: 14px;
   font-weight: 400;
   color: #686e7d;
-  border: 1px solid #eee;
+  border: 1px solid #d5d5d5;
   outline: 0;
   border-radius: 10px;
 }
